@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.5.1"
+  version: "0.7.0"
 
 package:
   name: delaunay32
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/morishuz/delaunay32/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 047ecc737719d5cd5a94b063bbcfec30048511c0c18cbb42449fd99d6b8e53e8
+  sha256: 48c21daf85f8add91228f8b876a3d508a5f9e328339f44c022884b546b769d56
 
 build:
   number: 0
